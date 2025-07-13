@@ -245,11 +245,9 @@ export class GameEngine {
 				.map((edge) => ({
 					id: edge.id,
 					source:
-						edge.source ||
-						"",
+						edge.source,
 					target:
-						edge.target ||
-						"",
+						edge.target,
 					type:
 						edge.data
 							?.properties
